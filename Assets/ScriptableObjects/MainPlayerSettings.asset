@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade786411544cd64c83238a41db51c4d, type: 3}
+  m_Name: MainPlayerSettings
+  m_EditorClassIdentifier: 
+  PlayerHeight: 1.85
+  PlayerRadius: 0.5
+  InvertedControls: 0
+  Sensitivity: {x: 0.5, y: 0.35}
+  PitchRange:
+    min: -75
+    max: 75
+  WalkingFOV: 60
+  RunningFOV: 65
+  FOVSlewRate: 40
+  HeadBobEnabled: 1
+  HeadBobMinVelocity: 1
+  HeadBobBlendSpeed: 1
+  HeadBobVerticalCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.19662212
+      outSlope: 0.19662212
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.078014165
+    - serializedVersion: 3
+      time: 1
+      value: 0.15
+      inSlope: 0.08650606
+      outSlope: 0.08650606
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09397185
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  HeadBobHorizontalCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  HeadBobPeriodCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.16786575
+      outSlope: -0.16786575
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.06737587
+    - serializedVersion: 3
+      time: 1
+      value: 0.8
+      inSlope: -0.14738965
+      outSlope: -0.14738965
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.078014374
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  WalkSpeed: 7
+  RunSpeed: 14
+  SpeedBlend: 0.7
+  SlopeLimit: 50
+  GroundOffset: 0.05
+  GroundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  AutoParentMode: 1
+  JumpHeight: 2.25
+  AllowAirMovement: 1
+  AirSpeedFactor: 0.6
+  PlayerGravity: {x: -0, y: -9.8, z: -0}
+  CoyoteTime: 0.4
+  CrouchHeightFactor: 0.5
+  CrouchSpeedFactor: 0.6
+  CrouchTime: 0.3
+  StepLookAhead: 0.1
+  StepHeightRange:
+    min: 0.1
+    max: 0.45
+  StepInstant: 0.2
+  MaxInteractionDistance: 2.5
+  InteractionMask:
+    serializedVersion: 2
+    m_Bits: 256
+  PlayerDefaultMaterial: {fileID: 13400000, guid: fe9134634e8a28142bcb75c709365bab, type: 2}
+  PlayerSlopeMaterial: {fileID: 13400000, guid: 0731bb0d7127e3c44ae4e572fba57a9c, type: 2}
+  UnscaledWalkSoundInterval: 4.5
+  UnscaledRunSoundInterval: 7.5
+  GroundHitMinAirTime: 0.2
